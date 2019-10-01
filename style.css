@@ -1,56 +1,57 @@
 body {
-    background-color: rgb(9, 248, 168);
-    border: solid 5px black;
-    padding: 5px;
-    margin: 5px 5px 5px 5px;
+  background-color: rgb(9, 248, 168);
+  border: solid 5px black;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
 }
 
 h1 {
-    background-color: saddlebrown;
-    margin: 10px;
-    padding: 25px;
-    color: wheat;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+  background-color: saddlebrown;
+  margin: 10px;
+  padding: 25px;
+  color: wheat;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
 }
 
 #color {
-    background-color: bisque;
-    margin: 10px;
+  background-color: bisque;
+  margin: 10px;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 10px;
-    color: rgb(10, 126, 87);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(10, 126, 87);
 }
 
 img {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+#random {
+  background-color: green;
+  margin: 10px;
+  padding: 13px;
 }
 .col-md {
-    background-color: green;
-    margin: 10px;
-    padding: 35px;
-}
-.col-sm {
-    background-color: lightskyblue;
-    margin: 10px;
-    padding: 35px;
+  background-color: lightskyblue;
+  margin: 10px;
+  padding: 35px;
 }
 
 #score {
-    background-color: lightseagreen;
-    margin: 10px;
-    padding: 5px;
-    color: whitesmoke;
+  background-color: lightseagreen;
+  margin: 10px;
+  padding: 40px;
+  color: whitesmoke;
 }
 
-#number {
-    background-color: lightseagreen;
-    margin: 10px;
-    padding: 40px;
-    color: whitesmoke;
+h3 {
+  background-color: lightseagreen;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+  color: whitesmoke;
 }
