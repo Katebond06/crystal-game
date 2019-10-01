@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
+
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
+    /> -->
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
     <title>Crystal Game</title>
   </head>
+
   <body>
     <h1>Crystals Collector!</h1>
     <div id="color">
@@ -33,38 +36,29 @@
       </p>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div id="random" class="col-md">...</div>
-        <div class="col-md">
-          <p id="result"></p>
-          <p>Wins: <span id="wins"></span></p>
-          <p>Losses: <span id="losses"></span></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <button>
-            <img id="img01" src="001.jpg" height="150px" width="150px" />
-          </button>
-        </div>
-        <div class="col-md-3">
-          <button>
-            <img id="img02" src="002.jpg" height="150px" width="150px" />
-          </button>
-        </div>
-        <div class="col-md-3">
-          <button>
-            <img id="img03" src="003.jpg" height="150px" width="150px" />
-          </button>
-        </div>
-        <div class="col-md-3">
-          <button>
-            <img id="img04" src="004.jpg" height="150px" width="150px" />
-          </button>
-        </div>
-      </div>
+    <div id="random">...</div>
+    <br />
+    <div class="result">
+      <p id="result"></p>
+      <p>Wins: <span id="wins"></span></p>
+      <p>Losses: <span id="losses"></span></p>
     </div>
+
+    <button>
+      <img id="img01" src="001.jpg" height="200px" width="200px" />
+    </button>
+
+    <button>
+      <img id="img02" src="002.jpg" height="200px" width="200px" />
+    </button>
+
+    <button>
+      <img id="img03" src="003.jpg" height="200px" width="200px" />
+    </button>
+
+    <button>
+      <img id="img04" src="004.jpg" height="200px" width="200px" />
+    </button>
 
     <div>
       <h3>Your total score:</h3>
@@ -77,11 +71,7 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
     ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+
     <script type="text/javascript" src="game.js"></script>
   </body>
 </html>

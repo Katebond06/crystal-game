@@ -1,27 +1,32 @@
 body {
-  background-color: rgb(9, 248, 168);
-  border: solid 5px black;
+  background-image: url("005.jpg");
+  background-size: cover;
+  border: solid 5px rgb(177, 8, 163);
   padding: 5px;
-  margin: 5px 5px 5px 5px;
+  margin: 0 auto;
 }
 
 h1 {
+  width: 250px;
+  text-align: center;
   background-color: saddlebrown;
   margin: 10px;
   padding: 25px;
   color: wheat;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #color {
+  width: 500px;
   background-color: bisque;
   margin: 10px;
 }
 
 p {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 17px;
   padding: 10px;
   color: rgb(10, 126, 87);
 }
@@ -31,26 +36,33 @@ img {
   padding: 10px;
 }
 #random {
+  width: 250px;
+  text-align: center;
   background-color: green;
   margin: 10px;
   padding: 13px;
 }
-.col-md {
+.result {
+  width: 250px;
   background-color: lightskyblue;
   margin: 10px;
-  padding: 35px;
+  padding: 13px;
 }
 
 #score {
+  width: 250px;
+  text-align: center;
   background-color: lightseagreen;
   margin: 10px;
-  padding: 40px;
+  padding: 13px;
   color: whitesmoke;
 }
 
 h3 {
+  width: 250px;
+  font-size: 25px;
   background-color: lightseagreen;
-  padding: 10px;
+  padding: 13px;
   margin: 10px;
   margin-top: 10px;
   color: whitesmoke;
